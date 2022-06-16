@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 30%;
+  height: 70vh;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.app h1 {
+  padding-top: 20px;
+  font-family: Arial;
+}
+img {
+  margin: 0 auto;
+  width: 346px;
+  height: 505px;
+  cursor: pointer;
+}
+.imgLamp {
+  position: absolute;
+  left: 20px;
+  z-index: 0;
+  top: 0;
+}
+
+.spitak{
+    position: absolute;
+    left: 2px;
+    z-index: 1;
+}
+.divBox {
+  position: relative;
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+}
+.imgLampMiacrac{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.dooo {
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+  }
