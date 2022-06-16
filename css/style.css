@@ -16,7 +16,7 @@
   font-family: Arial;
 }
 img {
-  width: 346px;
+  width: 100%;
   height: 505px;
   cursor: pointer;
 }
@@ -26,24 +26,21 @@ img {
   z-index: 0;
   top: 0;
 }
-
-.iimg{
-    position: absolute;
-    left: 2px;
-    z-index: 1;
+.iimg {
+  position: absolute;
+  left: 2px;
+  z-index: 1;
 }
 .divBox {
   position: relative;
-  width: 80%;
-  height: 70vh;
+  width: 346px;
+  height: 505px;
   margin: 0 auto;
 }
-.imgLampMiacrac{
-    position: absolute;
-    left: 10px;
+.imgLampMiacrac {
+  position: absolute;
 }
-.dexin{
-    z-index: 2;
-    position: absolute;
-    left: 20px;
-  }
+.dexin {
+  z-index: 2;
+  position: absolute;
+}
