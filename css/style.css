@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .app {
   width: 30%;
@@ -15,7 +16,6 @@
   font-family: Arial;
 }
 img {
-  margin: 0 auto;
   width: 346px;
   height: 505px;
   cursor: pointer;
@@ -27,7 +27,7 @@ img {
   top: 0;
 }
 
-.spitak{
+.iimg{
     position: absolute;
     left: 2px;
     z-index: 1;
@@ -40,10 +40,9 @@ img {
 }
 .imgLampMiacrac{
     position: absolute;
-    top: 0;
     left: 10px;
 }
-.dooo {
+.dexin{
     z-index: 2;
     position: absolute;
     left: 20px;
