@@ -39,6 +39,7 @@ img {
 }
 .imgLampMiacrac {
   position: absolute;
+  left: 10px;
 }
 .dexin {
   z-index: 2;
