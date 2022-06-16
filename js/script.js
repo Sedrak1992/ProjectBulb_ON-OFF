@@ -15,10 +15,10 @@ app.innerHTML = `
 const imgLalp = document.querySelector(".iimg");
 const imgLampMiacrac = document.querySelector(".imgLampMiacrac");
 
-function f(){
+const f = () => {
   imgLampMiacrac.classList.toggle("dexin");
   imgLalp.classList.toggle("dexin");
-}
+};
 
 imgLalp.onclick = f;
 imgLampMiacrac.onclick = f;
